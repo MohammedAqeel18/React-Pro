@@ -16,10 +16,10 @@ function Condition(){
                     
                     </div>
                 ):(
-                    <div className="p-4 bg-gray-100 rounded">
+                    <div className="p-4 bg-blue-100 rounded">
                         <h2> Please Login</h2>
 
-                        <button onClick={()=> setIsloggedIn(true)} className="mt-3 px-4 py-2 bg-blue text-white rounded">
+                        <button onClick={()=> setIsloggedIn(true)} className="mt-3 px-4 py-2 bg-blue-500 text-white rounded">
                             Login
                         </button>
                     </div>
